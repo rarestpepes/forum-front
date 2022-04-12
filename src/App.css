@@ -1,0 +1,282 @@
+.App {
+    font-family: monospace;
+    padding: 0;
+    margin: 0;
+    background: #626262;
+    height: 100%;
+}
+.costume-btn {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background: #2c2c2c;
+    color: #ff5900;
+    border: none;
+    padding: 7px 3px;
+    font-size: 15px;
+    justify-content: center;
+}
+.costume-btn:hover {
+
+}
+
+
+.d-flex {
+    display: flex;
+}
+.j-sp-btw {
+    justify-content: space-between;
+}
+.j-center {
+    justify-content: center;
+}
+.al-center {
+    align-items: center;
+}
+.column {
+    flex-direction: column;
+}
+.grow1 {
+    flex: 1;
+}
+.grow2 {
+    flex: 2;
+}
+
+.position-sticky {
+    position: sticky;
+}
+.position-absolute {
+    position: absolute;
+}
+.top0 {
+    top: 0;
+}
+
+
+.p10 {
+    padding: 10px;
+}
+.p20 {
+    padding: 20px;
+}
+.p30 {
+    padding: 30px;
+}
+.m5 {
+    margin: 5px;
+}
+.m10 {
+    margin: 10px;
+}
+.mt86 {
+    margin-top: 86px;
+}
+.mr50 {
+    margin-right: 50px;
+}
+.w100 {
+    width: 100%;
+}
+.w80 {
+    width: 80vw;
+}
+.vw100 {
+    width: 100vw;
+}
+.h100 {
+    height: 100%;
+}
+.minH100 {
+    min-height: 100vh;
+}
+.vh100 {
+    height: 100vh;
+}
+.test {
+    text-underline: none;
+}
+
+
+/*/////////////////////TOOLBAR/////////////////////////*/
+.toolbar {
+    width: 100%;
+    margin: 0;
+    background: #2c2c2c;
+}
+.toolbar button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background: #2c2c2c;
+    color: #ff5900;
+    border: none;
+    margin: 0 10px;
+    font-size: 15px;
+}
+.toolbar button svg{
+    margin: 10px;
+    font-size: 19px;
+}
+.toolbar button:hover {
+    cursor: pointer;
+    background: #3a3a3a;
+    color: #ff5900;
+    border: none;
+    margin: 0 10px;
+}
+.logo{
+    color: #ff8237;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.newForumInput input {
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    height: 40px;
+    background: #dadada;
+}
+
+
+
+/*//////////////////////////////LOGIN AND REGISTER///////////////////////////////////*/
+
+.form {
+    color: #ff8237;
+    background: #3f3f3f;
+    padding: 50px;
+}
+.form input {
+    border: none;
+    border-radius: 0;
+    margin: 5px;
+    height: 30px;
+}
+.form button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background: #2c2c2c;
+    color: #ff5900;
+    border: none;
+    margin: 0 5px;
+    padding: 7px 0;
+    font-size: 15px;
+    justify-content: center;
+}
+
+
+
+
+/*/////////////////////PROFILE/////////////////////////*/
+
+.profile-container {
+    background: #3f3f3f;
+    color: wheat;
+    height: 40vh;
+}
+.username-text {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px;
+    color: #dcd8d8;
+
+}
+.commentcount-text {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.profileImg {
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+/*//////////////////////SINGLE FORUM////////////////////////////*/
+
+.single-forum {
+    color: #ff5900;
+    background: #3f3f3f;
+    width: 80vw;
+    cursor: default;
+}
+
+/*/////////////////////////NOTIFICATIONS///////////////////////////*/
+.notification {
+    color: #ff5900;
+    background: #3f3f3f;
+    font-size: 20px;
+    width: 80vw;
+    cursor: default;
+    padding: 10px;
+}
+
+
+
+
+/*/////////////////Forum///////////////////////*/
+
+.commenter-profile {
+    padding: 5px;
+    border-right: 2px solid black;
+    width: fit-content;
+}
+.commenter-profile .image {
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.commenter-username {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: wheat;
+}
+.commenter-timestamp {
+    border-bottom: 2px solid black;
+    width: 100%;
+    font-size: 20px;
+    color: #ff7023;
+    background: #2c2c2c;
+    height: 40px;
+}
+.comment-text{
+    font-size: 15px;
+    background: #dcd8d8;
+    height: 100%;
+    padding: 5px;
+    font-weight: bold;
+}
+.comment-input {
+    width: 78vw;
+    height: 150px;
+}
+
+
+
+
+/*/////////////////////PAGINATION/////////////////////////*/
+
+.pagination div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    font-size: 30px;
+    font-weight: bold;
+    background: #2c2c2c;
+    color: wheat;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin: 3px;
+}
+
+
